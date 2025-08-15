@@ -1,0 +1,19 @@
+{
+    "modes": [
+        "combat_3"
+    ],
+    "replacements": {
+        "minecraft:birch_planks": "firmskyblock:dark_birch_planks",
+        "minecraft:brown_mushroom_block": "firmskyblock:dark_mushroom",
+        "minecraft:cut_sandstone": "firmskyblock:dark_cut_sandstone",
+        "minecraft:end_stone": "firmskyblock:dark_end_stone",
+        "minecraft:end_portal_frame": "firmskyblock:dark_end_portal_frame",
+        "minecraft:end_portal_frame_filled": "firmskyblock:dark_end_portal_frame_filled",
+        "minecraft:ladder": "firmskyblock:dark_ladder",
+        "minecraft:red_mushroom_block": "firmskyblock:dark_mushroom",
+        "minecraft:sand": "firmskyblock:dark_sand",
+        "minecraft:sandstone": "firmskyblock:dark_sandstone",
+        "minecraft:sandstone_slab": "firmskyblock:dark_sandstone_slab",
+        "minecraft:smooth_sandstone": "firmskyblock:dark_smooth_sandstone"
+    }
+}
