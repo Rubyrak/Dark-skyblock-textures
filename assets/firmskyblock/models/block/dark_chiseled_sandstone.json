@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "firmskyblock:block/dark_sandstone_top",
+        "side": "firmskyblock:block/dark_chiseled_sandstone"
+    }
+}

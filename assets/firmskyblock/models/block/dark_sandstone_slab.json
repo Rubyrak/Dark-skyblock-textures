@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/slab",
+  "parent": "block/slab",
   "textures": {
     "bottom": "firmskyblock:block/dark_sandstone_bottom",
     "side": "firmskyblock:block/dark_sandstone",

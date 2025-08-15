@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "firmskyblock:block/dark_sandstone_slab"
+    },
+    "type=double": {
+      "model": "firmskyblock:block/dark_sandstone"
+    },
+    "type=top": {
+      "model": "firmskyblock:block/dark_sandstone_slab_top"
+    }
+  }
+}

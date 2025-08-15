@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "firmskyblock:block/dark_birch_planks",
+    "side": "firmskyblock:block/dark_birch_planks",
+    "top": "firmskyblock:block/dark_birch_planks"
+    }
+}
