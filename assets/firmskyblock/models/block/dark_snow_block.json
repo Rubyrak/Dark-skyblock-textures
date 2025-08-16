@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "firmskyblock:block/rift_snow"
+    "all": "firmskyblock:block/dark_snow"
   }
 }

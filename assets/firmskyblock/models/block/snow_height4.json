@@ -1,7 +1,7 @@
 {
     "textures": {
-        "particle": "firmskyblock:block/rift_snow",
-        "texture": "firmskyblock:block/rift_snow"
+        "particle": "firmskyblock:block/dark_snow",
+        "texture": "firmskyblock:block/dark_snow"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],
