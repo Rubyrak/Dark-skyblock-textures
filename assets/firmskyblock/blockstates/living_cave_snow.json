@@ -1,28 +1,28 @@
 {
   "variants": {
     "layers=1": {
-      "model": "firmskyblock:block/rift_snow_height2"
+      "model": "firmskyblock:block/snow_height2"
     },
     "layers=2": {
-      "model": "firmskyblock:block/rift_snow_height4"
+      "model": "firmskyblock:block/snow_height4"
     },
     "layers=3": {
-      "model": "firmskyblock:block/rift_snow_height6"
+      "model": "firmskyblock:block/snow_height6"
     },
     "layers=4": {
-      "model": "firmskyblock:block/rift_snow_height8"
+      "model": "firmskyblock:block/snow_height8"
     },
     "layers=5": {
-      "model": "firmskyblock:block/rift_snow_height10"
+      "model": "firmskyblock:block/snow_height10"
     },
     "layers=6": {
-      "model": "firmskyblock:block/rift_snow_height12"
+      "model": "firmskyblock:block/snow_height12"
     },
     "layers=7": {
-      "model": "firmskyblock:block/rift_snow_height14"
+      "model": "firmskyblock:block/snow_height14"
     },
     "layers=8": {
-      "model": "firmskyblock:block/rift_snow_block"
+      "model": "firmskyblock:block/dark_snow_block"
     }
   }
 }
