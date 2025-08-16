@@ -3,7 +3,7 @@
         "rift"
     ],
     "replacements": {
-        "minecraft:snow": "firmskyblock:living_cave_snow",
-        "minecraft:snow_block": "firmskyblock:living_cave_snow_block"
+        "minecraft:snow": "firmskyblock:rift_snow",
+        "minecraft:snow_block": "firmskyblock:rift_snow_block"
     }
 }
