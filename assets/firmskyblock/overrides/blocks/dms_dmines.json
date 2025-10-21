@@ -5,7 +5,7 @@
   "replacements": {
     "minecraft:white_stained_glass": "firmskyblock:gray_stained_glass",
     "minecraft:white_carpet": "minecraft:light_gray_carpet",
-    "minecraft:snow": "firmskyblock:living_cave_snow",
+    "minecraft:snow": "firmskyblock:dark_snow_layer",
     "minecraft:snow_block": "firmskyblock:dark_snow_block"
   }
 }

@@ -1,9 +1,0 @@
-{
-    "modes": [
-        "rift"
-    ],
-    "replacements": {
-        "minecraft:snow": "firmskyblock:living_cave_snow",
-        "minecraft:snow_block": "firmskyblock:dark_snow_block"
-    }
-}

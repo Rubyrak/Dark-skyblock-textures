@@ -3,7 +3,7 @@
         "combat_3"
     ],
     "replacements": {
-        "minecraft:birch_planks": "firmskyblock:dark_birch_planks",
+
         "minecraft:birch_slab": "firmskyblock:dark_birch_slab",
         "minecraft:brown_mushroom_block": "firmskyblock:dark_mushroom",
         "minecraft:chiseled_sandstone": "firmskyblock:dark_chiseled_sandstone",
@@ -14,6 +14,7 @@
         "minecraft:red_mushroom_block": "firmskyblock:dark_mushroom",
         "minecraft:sand": "firmskyblock:dark_sand",
         "minecraft:sandstone": "firmskyblock:dark_sandstone",
+		"minecraft:birch_planks": "firmskyblock:dark_birch_planks",
         "minecraft:sandstone_slab": "firmskyblock:dark_sandstone_slab",
         "minecraft:sandstone_stairs": "firmskyblock:dark_sandstone_stairs",
         "minecraft:smooth_sandstone": "firmskyblock:dark_smooth_sandstone"
