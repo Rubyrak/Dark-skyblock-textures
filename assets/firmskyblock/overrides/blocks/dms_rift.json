@@ -5,6 +5,6 @@
     "replacements": {
         "minecraft:snow": "firmskyblock:dark_snow_layer",
         "minecraft:snow_block": "firmskyblock:dark_snow_block",
-		"minecraft:iron_block": "firmskyblock:netherite_block"
+		"minecraft:iron_block": "minecraft:netherite_block"
     }
 }
