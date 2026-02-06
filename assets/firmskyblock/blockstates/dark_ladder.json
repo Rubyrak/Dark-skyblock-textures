@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "firmskyblock:block/dark_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "firmskyblock:block/dark_ladder"
+    },
+    "facing=south": {
+      "model": "firmskyblock:block/dark_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "firmskyblock:block/dark_ladder",
+      "y": 270
+    }
+  }
+}
