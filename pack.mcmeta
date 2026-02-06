@@ -1,10 +1,10 @@
 {
   "pack": {
     "pack_format": 55,
-    "description": "\u00A7aA better way to play skyblock \u00A7r \u00A7c\u00A7lv0.2.1\u00A7r \u00A75Firmament 3.7+ needed",
+    "description": "\u00A7aA better way to play skyblock \u00A7r \u00A7c\u00A7lv0.2.2\u00A7r \u00A75Firmament 3.7+ needed",
 	"supported_formats": {
-      "min_inclusive": 55,
-      "max_inclusive": 69
+      "min_format": 55,
+      "max_format": 75
     }
   }
 }
