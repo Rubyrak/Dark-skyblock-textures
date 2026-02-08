@@ -1,0 +1,9 @@
+{
+  "modes": [
+    "mining_3"
+  ],
+  "replacements": {
+    "minecraft:snow_block": "firmskyblock:dark_snow_block",
+    "minecraft:snow": "firmskyblock:dark_snow_layer"
+  }
+}

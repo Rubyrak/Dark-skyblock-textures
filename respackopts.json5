@@ -5,12 +5,14 @@
     conf: {
         islands:{
             enableEnd: true,
-            enableDwarvenMines: true,
-            enableGlaciteMineshafts: true,
+
             enableRift: true,
-            enableNether: false
+            enableNether: false,
+            enableMushroomDessert: false
         },
         zones:{
+            enableGhosts: true,
+            enableGlaciteTunnels: true,
             enableDungeons: false
         }
     }
