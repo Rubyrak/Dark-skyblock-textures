@@ -1,0 +1,38 @@
+{
+    "modes": [
+        "dungeon"
+    ],
+    "replacements": {
+        "minecraft:stone_bricks": "minecraft:polished_blackstone_bricks",
+        "minecraft:cracked_stone_bricks": "minecraft:polished_blackstone_bricks",
+        "minecraft:mossy_stone_bricks": "minecraft:polished_blackstone_bricks",
+        "minecraft:chiseled_stone_bricks": "minecraft:chiseled_polished_blackstone",
+        "minecraft:smooth_stone": "minecraft:polished_blackstone",
+        "minecraft:polished_andesite": "minecraft:polished_blackstone",
+        "minecraft:polished_diorite": "minecraft:polished_tuff",
+        "minecraft:diorite": "minecraft:polished_deepslate",
+        "minecraft:cobblestone_stairs": "minecraft:blackstone_stairs",
+        "minecraft:cobblestone_wall": "minecraft:blackstone_wall",
+        "minecraft:mossy_cobblestone_wall": "minecraft:blackstone_wall",
+        "minecraft:mossy_cobblestone": "minecraft:blackstone",
+        "minecraft:cobblestone": "minecraft:polished_deepslate",
+        "minecraft:infested_cobblestone": "minecraft:blackstone",
+        "minecraft:stone": "minecraft:deepslate_tiles",
+        "minecraft:andesite": "minecraft:polished_deepslate",
+        "minecraft:gravel": "minecraft:gray_concrete_powder",
+        "minecraft:stone_brick_stairs": "minecraft:polished_blackstone_brick_stairs",
+        "minecraft:cobblestone_slab": "minecraft:blackstone_slab",
+        "minecraft:smooth_stone_slab": "minecraft:polished_blackstone_slab",
+        "minecraft:stone_brick_slab": "minecraft:polished_blackstone_brick_slab",
+        "minecraft:light_gray_wool": "minecraft:gray_wool",
+        "minecraft:light_gray_carpet": "minecraft:gray_carpet",
+        "minecraft:white_carpet": "minecraft:gray_carpet",
+        "minecraft:iron_ore": "minecraft:deepslate_iron_ore",
+        "minecraft:diamond_ore": "minecraft:deepslate_diamond_ore",
+        "minecraft:redstone_ore": "minecraft:deepslate_redstone_ore",
+        "minecraft:coal_ore": "minecraft:deepslate_coal_ore",
+        "minecraft:emerald_ore": "minecraft:deepslate_emerald_ore",
+        "minecraft:gold_ore": "minecraft:deepslate_gold_ore",
+        "minecraft:lapis_ore": "minecraft:deepslate_lapis_ore"
+    }
+}

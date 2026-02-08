@@ -1,0 +1,4 @@
+{
+    condition: "!zones.enableDungeons",
+    fallback: "assets/dms/overrides/blocks/dms_dungeons.json"
+}

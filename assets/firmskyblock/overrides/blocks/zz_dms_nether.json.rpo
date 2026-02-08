@@ -1,0 +1,4 @@
+{
+    condition: "!islands.enableNether",
+    fallback: "assets/dms/overrides/blocks/dms_nether.json"
+}

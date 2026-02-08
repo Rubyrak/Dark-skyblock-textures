@@ -1,0 +1,17 @@
+{
+    id: "darkModeSkyblock",
+    version: 13,
+    capabilities: ["FileFilter", "DirFilter"],
+    conf: {
+        islands:{
+            enableEnd: true,
+            enableDwarvenMines: true,
+            enableGlaciteMineshafts: true,
+            enableRift: true,
+            enableNether: false
+        },
+        zones:{
+            enableDungeons: false
+        }
+    }
+}
