@@ -1,6 +1,7 @@
 {
   "modes": [
-    "mineshaft"
+    "mineshaft",
+    "mining_3"
   ],
   "replacements": {
     "minecraft:snow": "firmskyblock:dark_snow_layer",

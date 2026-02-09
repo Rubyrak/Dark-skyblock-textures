@@ -3,6 +3,7 @@
         "crimson_isle"
     ],
     "replacements": {
-        "minecraft:netherrack": "firmskyblock:dark_end_stone"
+        "minecraft:netherrack": "firmskyblock:dark_end_stone",
+        "minecraft:fire": "firmskyblock:dark_fire"
     }
 }

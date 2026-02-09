@@ -5,10 +5,9 @@
     conf: {
         islands:{
             enableEnd: true,
-
             enableRift: true,
             enableNether: false,
-            enableMushroomDessert: false
+            enableMushroomDesert: false
         },
         zones:{
             enableGhosts: true,

@@ -1,0 +1,4 @@
+{
+    condition: "!islands.enableMushroomDesert",
+    fallback: "assets/dms/overrides/blocks/dms_desert.json"
+}
