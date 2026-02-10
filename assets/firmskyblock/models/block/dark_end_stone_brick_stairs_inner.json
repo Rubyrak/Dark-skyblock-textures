@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "firmskyblock:block/dark_end_stone_bricks",
+    "side": "firmskyblock:block/dark_end_stone_bricks",
+    "top": "firmskyblock:block/dark_end_stone_bricks"
+  }
+}

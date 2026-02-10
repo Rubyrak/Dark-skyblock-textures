@@ -19,6 +19,10 @@
         "minecraft:sandstone_stairs": "firmskyblock:dark_sandstone_stairs",
         "minecraft:smooth_sandstone": "firmskyblock:dark_smooth_sandstone",
         "minecraft:clay": "minecraft:cyan_terracotta",
-        "minecraft:end_stone_bricks": "firmskyblock:dark_end_stone_bricks"
+
+        "minecraft:end_stone_bricks": "firmskyblock:dark_end_stone_bricks",
+        "minecraft:end_stone_brick_slab": "firmskyblock:dark_end_stone_brick_slab",
+        "minecraft:end_stone_brick_stairs": "firmskyblock:dark_end_stone_brick_stairs",
+        "minecraft:end_stone_brick_wall": "firmskyblock:dark_end_stone_brick_wall"
     }
 }
