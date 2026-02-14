@@ -1,0 +1,4 @@
+{
+    condition: "!islands.enableNether",
+    fallback: "assets/dms/textures/fire_0.png"
+}

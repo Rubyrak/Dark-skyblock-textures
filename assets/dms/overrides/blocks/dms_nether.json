@@ -3,7 +3,15 @@
         "crimson_isle"
     ],
     "replacements": {
-        "minecraft:netherrack": "firmskyblock:dark_end_stone",
+        "minecraft:netherrack": "firmskyblock:dark_netherrack",
+        "minecraft:red_sand": "minecraft:gray_concrete_powder",
+        "minecraft:diorite": "minecraft:stone_bricks",
+        "minecraft:polished_diorite": "minecraft:stone_bricks",
+        "minecraft:red_sandstone": "minecraft:bedrock",
+        "minecraft:terracotta": "minecraft:gray_concrete",
+        "minecraft:polished_granite": "minecraft:polished_blackstone",
+        "minecraft:granite": "minecraft:blackstone",
+        "minecraft:brick_slab": "minecraft:nether_brick_slab",
         "minecraft:fire": "firmskyblock:dark_fire"
     }
 }
