@@ -13,6 +13,15 @@
             enableGhosts: true,
             enableGlaciteTunnels: true,
             enableDungeons: false
+        },
+        extras:{
+            removeEntityFire: false,
+            enableCustomFire: [
+                "none",
+                "gray",
+                "desaturated",
+                "white"
+            ]
         }
     }
 }

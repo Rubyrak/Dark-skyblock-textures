@@ -1,0 +1,4 @@
+{
+    condition: "extras.enableCustomFire.none",
+    fallback: "assets/dms/overrides/blocks/dms_fire.json"
+}

@@ -1,4 +1,4 @@
 {
-    condition: "!islands.enableNether",
-    fallback: "assets/dms/textures/fire_1.png"
+    condition: "!extras.removeEntityFire",
+    fallback: "assets/dms/textures/fire/invisible/fire_1.png"
 }

@@ -1,0 +1,8 @@
+{
+    "modes": [
+        "crimson_isle"
+    ],
+    "replacements": {
+        "minecraft:fire": "firmskyblock:dark_fire"
+    }
+}
