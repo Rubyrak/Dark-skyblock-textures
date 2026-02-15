@@ -4,6 +4,7 @@
     ],
     "replacements": {
         "minecraft:stone_bricks": "minecraft:polished_blackstone_bricks",
+        "minecraft:infested_mossy_stone_bricks": "minecraft:polished_blackstone_bricks",
         "minecraft:cracked_stone_bricks": "minecraft:polished_blackstone_bricks",
         "minecraft:mossy_stone_bricks": "minecraft:polished_blackstone_bricks",
         "minecraft:chiseled_stone_bricks": "minecraft:chiseled_polished_blackstone",
