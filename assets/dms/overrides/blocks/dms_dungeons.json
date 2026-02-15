@@ -16,7 +16,10 @@
         "minecraft:cobblestone_wall": "minecraft:blackstone_wall",
         "minecraft:mossy_cobblestone_wall": "minecraft:blackstone_wall",
         "minecraft:mossy_cobblestone": "minecraft:blackstone",
+        "minecraft:acacia_wood": "minecraft:spruce_wood",
+        "minecraft:clay": "minecraft:cyan_terracotta",
         "minecraft:cobblestone": "minecraft:polished_deepslate",
+        "minecraft:infested_chiseled_stone_bricks": "minecraft:netherite_block",
         "minecraft:infested_cobblestone": "minecraft:blackstone",
         "minecraft:stone": "minecraft:deepslate_tiles",
         "minecraft:andesite": "minecraft:polished_deepslate",
@@ -34,6 +37,7 @@
         "minecraft:coal_ore": "minecraft:deepslate_coal_ore",
         "minecraft:emerald_ore": "minecraft:deepslate_emerald_ore",
         "minecraft:gold_ore": "minecraft:deepslate_gold_ore",
-        "minecraft:lapis_ore": "minecraft:deepslate_lapis_ore"
+        "minecraft:lapis_ore": "minecraft:deepslate_lapis_ore",
+        "minecraft:birch_planks": "minecraft:mangrove_planks"
     }
 }

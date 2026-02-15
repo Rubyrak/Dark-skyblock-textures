@@ -3,6 +3,6 @@
     fallback: [
       "assets/dms/textures/fire/gray/fire_1.png",
       "assets/dms/textures/fire/desaturated/fire_1.png",
-      "assets/dms/textures/fire/white/fire_1.png",
+      "assets/dms/textures/fire/vanilla/fire_1.png",
     ]
 }

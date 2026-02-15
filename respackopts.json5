@@ -6,8 +6,7 @@
         islands:{
             enableEnd: true,
             enableRift: true,
-            enableNether: false,
-            enableMushroomDesert: false
+            enableNether: false
         },
         zones:{
             enableGhosts: true,
@@ -20,7 +19,7 @@
                 "none",
                 "gray",
                 "desaturated",
-                "white"
+                "vanilla"
             ]
         }
     }
