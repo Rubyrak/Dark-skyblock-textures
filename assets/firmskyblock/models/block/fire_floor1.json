@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fire_floor",
   "textures": {
-    "fire": "firmskyblock:block/fire_1"
+    "fire": "firmskyblock:block/dark_fire_1"
   }
 }
