@@ -20,6 +20,11 @@
                 "gray",
                 "desaturated",
                 "vanilla"
+            ],            
+            enableCustomLava: [
+                "none",
+                "gray",
+                "desaturated"
             ]
         }
     }

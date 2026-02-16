@@ -1,8 +1,0 @@
-{
-    "modes": [
-        "farming_1"
-    ],
-    "replacements": {
-        "minecraft:sand": "firmskyblock:dark_end_stone"
-    }
-}

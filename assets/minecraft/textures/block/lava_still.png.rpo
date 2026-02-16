@@ -1,0 +1,7 @@
+{
+    condition: "extras.enableCustomLava.none",
+    fallback: [
+      "assets/dms/textures/lava/gray/lava_still.png",
+      "assets/dms/textures/lava/desaturated/lava_still.png"
+    ]
+}
