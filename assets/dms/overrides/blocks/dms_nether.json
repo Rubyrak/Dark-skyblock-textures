@@ -4,7 +4,7 @@
     ],
     "replacements": {
         "minecraft:netherrack": "firmskyblock:dark_netherrack",
-        "minecraft:red_sand": "minecraft:gray_concrete_powder",
+        "minecraft:red_sand": "firmskyblock:dark_sand",
         "minecraft:diorite": "minecraft:stone_bricks",
         "minecraft:polished_diorite": "minecraft:stone_bricks",
         "minecraft:red_sandstone": "minecraft:bedrock",
