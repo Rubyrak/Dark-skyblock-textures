@@ -11,6 +11,7 @@
         "minecraft:terracotta": "minecraft:gray_concrete",
         "minecraft:polished_granite": "minecraft:polished_blackstone",
         "minecraft:granite": "minecraft:blackstone",
-        "minecraft:brick_slab": "minecraft:nether_brick_slab"
+        "minecraft:brick_slab": "minecraft:nether_brick_slab",
+        "minecraft:nether_quartz_ore": "firmskyblock:dark_nether_quartz_ore"
     }
 }

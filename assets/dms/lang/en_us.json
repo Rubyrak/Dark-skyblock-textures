@@ -1,4 +1,4 @@
 {
     "rpo.darkModeSkyblock.zones.enableGlaciteTunnels.tooltip": "This includes the snow from the mist",
-    "rpo.darkModeSkyblock.extras.removeEntityFire.tooltip": "⚠ WARNING: Select a custom fire, or your fire will be invisible"
+    "rpo.darkModeSkyblock.extras.removeEntityFire.tooltip": "⚠ WARNING: If enabled select a custom fire or your fire will be invisible"
 }
