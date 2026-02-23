@@ -6,7 +6,8 @@
         islands:{
             enableEnd: true,
             enableRift: true,
-            enableNether: false
+            enableNether: false,
+            enableWinter: false
         },
         zones:{
             enableGhosts: true,
