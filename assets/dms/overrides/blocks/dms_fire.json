@@ -1,6 +1,8 @@
 {
     "modes": [
-        "crimson_isle"
+        "crimson_isle",
+        "combat_3",
+        "dungeon"
     ],
     "replacements": {
         "minecraft:fire": "firmskyblock:dark_fire"
