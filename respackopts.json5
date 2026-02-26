@@ -25,7 +25,8 @@
             enableCustomLava: [
                 "none",
                 "gray",
-                "desaturated"
+                "desaturated",
+                "test"
             ]
         }
     }
