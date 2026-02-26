@@ -1,8 +1,22 @@
 {
     "modes": [
         "crimson_isle",
+        "combat_1",
         "combat_3",
-        "dungeon"
+        "dungeon",
+        "dungeon_hub",
+        "hub",
+        "foraging_1",
+        "foraging_2",
+        "dynamic",
+        "garden",
+        "mining_1",
+        "mining_2",
+        "mining_3",
+        "crystal_hollows",
+        "rift",
+        "winter",
+        "dark_auction"
     ],
     "replacements": {
         "minecraft:fire": "firmskyblock:dark_fire"
