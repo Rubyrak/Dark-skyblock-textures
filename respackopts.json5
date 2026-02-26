@@ -12,7 +12,8 @@
         zones:{
             enableGhosts: true,
             enableGlaciteTunnels: true,
-            enableDungeons: false
+            enableDungeons: false,
+            enableKuudra: false
         },
         extras:{
             removeEntityFire: false,
@@ -25,8 +26,7 @@
             enableCustomLava: [
                 "none",
                 "gray",
-                "desaturated",
-                "test"
+                "desaturated"
             ]
         }
     }
