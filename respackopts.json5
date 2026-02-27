@@ -19,9 +19,9 @@
             removeEntityFire: false,
             enableCustomFire: [
                 "none",
+                "vanilla",
                 "gray",
-                "desaturated",
-                "vanilla"
+                "desaturated"
             ],            
             enableCustomLava: [
                 "none",
