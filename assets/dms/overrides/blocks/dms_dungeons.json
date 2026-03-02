@@ -36,7 +36,7 @@
         "minecraft:end_portal_frame": "firmskyblock:dark_end_portal_frame",
         "minecraft:sandstone_slab": "firmskyblock:dark_sandstone_slab",
         "minecraft:sandstone": "firmskyblock:dark_sandstone",
-        "minecraft:smooth_sandstone": "firmskyblock:dark_smooth_sandstone",
+        "minecraft:smooth_sandstone": "firmskyblock:dark_sandstone",
         "minecraft:sandstone_stairs": "firmskyblock:dark_sandstone_stairs",
         "minecraft:iron_ore": "minecraft:deepslate_iron_ore",
         "minecraft:diamond_ore": "minecraft:deepslate_diamond_ore",
