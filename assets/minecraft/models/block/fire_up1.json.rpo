@@ -1,0 +1,4 @@
+{
+    condition: "!extras.removeEntityFire",
+    fallback: "assets/dms/models/block/fire_up1.json"
+}

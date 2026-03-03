@@ -1,4 +1,4 @@
 {
     condition: "!extras.removeEntityFire",
-    fallback: "assets/dms/textures/fire/invisible/fire_0.png"
+    fallback: "assets/dms/textures/block/fire/invisible/fire_0.png"
 }

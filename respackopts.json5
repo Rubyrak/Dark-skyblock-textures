@@ -19,7 +19,6 @@
             removeEntityFire: false,
             enableCustomFire: [
                 "none",
-                "vanilla",
                 "gray",
                 "desaturated"
             ],            
