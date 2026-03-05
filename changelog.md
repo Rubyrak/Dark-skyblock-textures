@@ -49,7 +49,7 @@ Respackots its a mod that provides resource packs a config menu, after installin
 - 
 
 ## Fixes
-- 
+- Custom lava textures dont working
 
 
 ## Future plans
