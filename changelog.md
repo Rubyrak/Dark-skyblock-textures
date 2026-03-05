@@ -39,6 +39,26 @@ Respackots its a mod that provides resource packs a config menu, after installin
   - Mushroom desert
 
 # v1.1.1 - (2026-03-03)
+## New content (with-out Respackopts)
+- Added dark variant blocks in the Draconic Altar room of the end
+
+### Extra zones
+- 
+
+### Custom textures
+- 
+
+## Fixes
+- 
+
+
+## Future plans
+- We're open to suggestion for new zones and different textures to currently existing features.
+- Current zones in development:
+  - Mushroom desert
+  - New fire and lava colors
+
+# v1.1.1 - (2026-03-03)
 ## New content 
 - 
 
@@ -56,3 +76,4 @@ Respackots its a mod that provides resource packs a config menu, after installin
 - We're open to suggestion for new zones and different textures to currently existing features.
 - Current zones in development:
   - Mushroom desert
+  - New fire and lava colors

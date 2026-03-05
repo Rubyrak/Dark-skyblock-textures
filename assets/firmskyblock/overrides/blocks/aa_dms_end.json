@@ -3,6 +3,11 @@
         "combat_3"
     ],
     "replacements": {
+        "minecraft:andesite": "minecraft:deepslate_bricks",
+        "minecraft:polished_andesite": "minecraft:polished_deepslate",
+        "minecraft:light_gray_carpet": "minecraft:gray_carpet",
+        "minecraft:stone_brick_slab": "minecraft:polished_blackstone_slab",
+        "minecraft:smooth_stone_slab": "minecraft:polished_blackstone_slab",
         "minecraft:birch_planks": "firmskyblock:dark_birch_planks",
         "minecraft:birch_slab": "firmskyblock:dark_birch_slab",
         "minecraft:chiseled_sandstone": "firmskyblock:dark_chiseled_sandstone",
