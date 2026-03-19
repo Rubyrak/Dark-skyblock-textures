@@ -51,6 +51,7 @@ Respackots its a mod that provides resource packs a config menu, after installin
 ## Fixes
 - Custom lava textures dont working
 - Missing blocks in crimson isle
+- Added compatibility with Stay True resorce pack in some areas
 
 
 ## Future plans
