@@ -8,6 +8,7 @@
         "minecraft:diorite": "minecraft:stone_bricks",
         "minecraft:polished_diorite": "minecraft:stone_bricks",
         "minecraft:red_sandstone": "minecraft:bedrock",
+        "minecraft:acacia_planks": "firmskyblock:dark_birch_planks",
         "minecraft:terracotta": "minecraft:gray_concrete",
         "minecraft:polished_granite": "minecraft:polished_blackstone",
         "minecraft:granite": "minecraft:blackstone",
