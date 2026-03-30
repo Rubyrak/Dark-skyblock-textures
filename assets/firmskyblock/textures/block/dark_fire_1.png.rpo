@@ -2,6 +2,7 @@
     condition: "extras.enableCustomFire.none",
     fallback: [
       "assets/dms/textures/block/fire/gray/fire_1.png",
-      "assets/dms/textures/block/fire/desaturated/fire_1.png"
+      "assets/dms/textures/block/fire/desaturated/fire_1.png",
+      "assets/dms/textures/block/fire/soul/fire_1.png"
     ]
 }

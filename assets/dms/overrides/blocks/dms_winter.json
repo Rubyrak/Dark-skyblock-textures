@@ -5,7 +5,6 @@
     "replacements": {
         "minecraft:snow": "firmskyblock:dark_snow_layer",
         "minecraft:snow_block": "firmskyblock:dark_snow_block",
-        "minecraft:diorite": "minecraft:cobbled_deepslate",
-        "minecraft:clay": "minecraft:polished_blackstone"
+        "minecraft:diorite": "minecraft:cobbled_deepslate"
     }
 }

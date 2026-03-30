@@ -20,6 +20,7 @@
             enableCustomFire: [
                 "none",
                 "gray",
+                "soul",
                 "desaturated"
             ],            
             enableCustomLava: [

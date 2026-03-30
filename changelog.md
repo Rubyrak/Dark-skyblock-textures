@@ -41,17 +41,17 @@ Respackots its a mod that provides resource packs a config menu, after installin
 # v1.1.1 - (2026-03-03)
 ## New content (with-out Respackopts)
 - Added dark variant blocks in the Draconic Altar room of the end
+- Added compatibility with Stay True resorce pack in some areas
 
 ### Extra zones
 - 
 
 ### Custom textures
-- 
+- Added soulfire as a possible fire texture
 
 ## Fixes
-- Custom lava textures dont working
+- Custom lava textures not working
 - Missing blocks in crimson isle
-- Added compatibility with Stay True resorce pack in some areas
 
 
 ## Future plans
