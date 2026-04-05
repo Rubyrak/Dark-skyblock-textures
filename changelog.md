@@ -1,11 +1,7 @@
-
-# v1.1.1 - (2026-03-03)
+# v1.2 - (2026-04-05)
 ## New content (with-out Respackopts)
 - Added dark variant blocks in the Draconic Altar room of the end
 - Added compatibility with Stay True resorce pack in some areas
-
-### Extra zones
-- 
 
 ### Custom textures
 - Added soulfire as a possible fire texture
@@ -14,13 +10,15 @@
 ## Fixes
 - Custom lava textures not working
 - Missing blocks in crimson isle
+- Changed some blocks in new jerry's island
 
 ## Future plans
 - We're open to suggestion for new zones and different textures to currently existing features.
 - Current zones in development:
   - Mushroom desert
-  - New fire and lava colors
-
+  - New fire and lava colors (not very happy with current state)
+  - Multiple variants for kuudra/dungeons
+  - Dark mode for the Crypts below the Graveyard
 
 
 
