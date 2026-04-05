@@ -1,3 +1,69 @@
+
+# v1.1.1 - (2026-03-03)
+## New content (with-out Respackopts)
+- Added dark variant blocks in the Draconic Altar room of the end
+- Added compatibility with Stay True resorce pack in some areas
+
+### Extra zones
+- 
+
+### Custom textures
+- Added soulfire as a possible fire texture
+- Changed gray lava and added new darker lava
+
+## Fixes
+- Custom lava textures not working
+- Missing blocks in crimson isle
+
+## Future plans
+- We're open to suggestion for new zones and different textures to currently existing features.
+- Current zones in development:
+  - Mushroom desert
+  - New fire and lava colors
+
+
+
+
+# v1.1.1 - (2026-03-03)
+## New content 
+- 
+
+### Extra zones
+- 
+
+### Custom textures
+- 
+
+## Fixes
+- 
+
+## Future plans
+- We're open to suggestion for new zones and different textures to currently existing features.
+- Current zones in development:
+  - Mushroom desert
+  - New fire and lava colors
+
+
+
+# v1.1 - (2026-03-03)
+## New content 
+### Extra zones
+- Kuudra
+- Winter islands (Jerry's island)
+
+## Fixes
+- Added missing blocks in dark crimson isle
+- Added vanilla fire in all islands as a backup when "Remove entity fire" is enabled
+- Added custom fire to almost all islands
+- Removed old textures used in 1.8.9 end island
+
+## Future plans
+- We're open to suggestion for new zones and different textures to currently existing features.
+- Current zones in development:
+  - Mushroom desert
+
+
+
 # v1.0 - (2026-02-18)
 ## Fixes
 - Bumped resource pack version to support future updates
@@ -20,62 +86,3 @@ Respackots its a mod that provides resource packs a config menu, after installin
 - Current zones in development:
   - Jerry's island
   - Mushroom desert
-
-# v1.1 - (2026-03-03)
-## New content 
-### Extra zones
-- Kuudra
-- Winter islands (Jerry's island)
-
-## Fixes
-- Added missing blocks in dark crimson isle
-- Added vanilla fire in all islands as a backup when "Remove entity fire" is enabled
-- Added custom fire to almost all islands
-- Removed old textures used in 1.8.9 end island
-
-## Future plans
-- We're open to suggestion for new zones and different textures to currently existing features.
-- Current zones in development:
-  - Mushroom desert
-
-# v1.1.1 - (2026-03-03)
-## New content (with-out Respackopts)
-- Added dark variant blocks in the Draconic Altar room of the end
-- Added compatibility with Stay True resorce pack in some areas
-
-### Extra zones
-- 
-
-### Custom textures
-- Added soulfire as a possible fire texture
-
-## Fixes
-- Custom lava textures not working
-- Missing blocks in crimson isle
-
-
-## Future plans
-- We're open to suggestion for new zones and different textures to currently existing features.
-- Current zones in development:
-  - Mushroom desert
-  - New fire and lava colors
-
-# v1.1.1 - (2026-03-03)
-## New content 
-- 
-
-### Extra zones
-- 
-
-### Custom textures
-- 
-
-## Fixes
-- 
-
-
-## Future plans
-- We're open to suggestion for new zones and different textures to currently existing features.
-- Current zones in development:
-  - Mushroom desert
-  - New fire and lava colors
