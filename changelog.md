@@ -26,7 +26,7 @@
 - Added dark variant blocks in the Draconic Altar room of the end
 - Added compatibility with Stay True resorce pack in some areas
 
-### Custom textures
+### Custom textures (with Respackopts)
 - Added soulfire as a possible fire texture
 - Changed gray lava and added new darker lava
 
