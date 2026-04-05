@@ -1,3 +1,26 @@
+# v1.3 - (2026-04-05)
+## New content 
+- 
+
+### Extra zones
+- 
+
+### Custom textures
+- 
+
+## Fixes
+- 
+
+## Future plans
+- We're open to suggestion for new zones and different textures to currently existing features.
+- Current zones in development:
+  - Mushroom desert
+  - New fire and lava colors (not very happy with current state)
+  - Multiple variants for kuudra/dungeons
+  - Dark mode for the Crypts below the Graveyard
+
+
+
 # v1.2 - (2026-04-05)
 ## New content (with-out Respackopts)
 - Added dark variant blocks in the Draconic Altar room of the end
@@ -19,27 +42,6 @@
   - New fire and lava colors (not very happy with current state)
   - Multiple variants for kuudra/dungeons
   - Dark mode for the Crypts below the Graveyard
-
-
-
-# v1.1.1 - (2026-03-03)
-## New content 
-- 
-
-### Extra zones
-- 
-
-### Custom textures
-- 
-
-## Fixes
-- 
-
-## Future plans
-- We're open to suggestion for new zones and different textures to currently existing features.
-- Current zones in development:
-  - Mushroom desert
-  - New fire and lava colors
 
 
 
