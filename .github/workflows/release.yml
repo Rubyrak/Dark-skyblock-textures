@@ -26,7 +26,7 @@ jobs:
       - name: Create .zip Archive
         run: |
           # '${{ github.ref_name }}' is the name of your tag
-          zip -r "Dark Skyblock ${{ github.ref_name }}.zip" . -x "*.git*" ".github/*" "changelog.md" "README.md"
+          zip -9 -r "Dark Skyblock ${{ github.ref_name }}.zip" . -x "*.git*" ".github/*" "changelog.md" "README.md"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
