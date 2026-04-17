@@ -7,6 +7,7 @@
         "minecraft:infested_mossy_stone_bricks": "minecraft:polished_blackstone_bricks",
         "minecraft:cracked_stone_bricks": "minecraft:polished_blackstone_bricks",
         "minecraft:mossy_stone_bricks": "minecraft:polished_blackstone_bricks",
+        "minecraft:sponge": "minecraft:polished_blackstone_bricks",
         "minecraft:chiseled_stone_bricks": "minecraft:chiseled_polished_blackstone",
         "minecraft:smooth_stone": "minecraft:polished_blackstone",
         "minecraft:polished_andesite": "minecraft:polished_blackstone",
