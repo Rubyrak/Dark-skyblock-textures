@@ -1,0 +1,37 @@
+name: Release Pack
+
+on:
+  push:
+    tags:
+      - 'v*' # Triggers when you push a tag starting with 'v' (e.g., v1.0, v2.0-beta)
+
+jobs:
+  build:
+    name: Minify and Release
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Minify JSON files
+        run: |
+          for file in $(find . -name "*.json" -type f); do
+            jq -c . "$file" > "$file.min" && mv "$file.min" "$file" || echo "Skipped $file"
+          done
+
+      - name: Create .zip Archive
+        run: |
+          # '${{ github.ref_name }}' is the name of your tag
+          zip -r "Dark Skyblock ${{ github.ref_name }}.zip" . -x "*.git*" ".github/*" "changelog.md" "README.md"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "Dark Skyblock ${{ github.ref_name }}.zip"
+          # This creates a formal Release page on GitHub with your zip attached
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
