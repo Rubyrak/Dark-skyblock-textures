@@ -31,7 +31,5 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: "${{ github.ref_name }}.zip"
-          # This creates a formal Release page on GitHub with your zip attached
-        env:
+          files: "Dark Skyblock ${{ github.ref_name }}.zip"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
