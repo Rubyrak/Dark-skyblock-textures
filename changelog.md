@@ -1,23 +1,13 @@
-# v1.3 - (2026-04-05)
-## New content 
-- 
-
-### Extra zones
-- 
-
-### Custom textures
-- 
+# v1.2.1 - (2026-04-29)
+## IMPORTANT
+This will be the last version compatible with Firmament. Subsequent versions will use Catharsis.
 
 ## Fixes
-- 
+- Add missing blocks in dungeons
+- Add missing blocks in kuudra
 
-## Future plans
-- We're open to suggestion for new zones and different textures to currently existing features.
-- Current zones in development:
-  - Mushroom desert
-  - New fire and lava colors (not very happy with current state)
-  - Multiple variants for kuudra/dungeons
-  - Dark mode for the Crypts below the Graveyard
+## Improvements
+- The size of the textures has been significantly reduced. 
 
 
 
