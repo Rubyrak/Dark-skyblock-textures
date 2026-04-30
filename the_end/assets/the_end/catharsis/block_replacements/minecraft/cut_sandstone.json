@@ -6,6 +6,6 @@
     },
     "definition": {
         "type": "redirect",
-        "virtual_state": "dms:dark_birch_planks"
+        "virtual_state": "dms:dark_cut_sandstone"
     }
 }

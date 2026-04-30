@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "dms:block/dark_sandstone_top",
+        "side": "dms:block/dark_chiseled_sandstone"
+    }
+}
