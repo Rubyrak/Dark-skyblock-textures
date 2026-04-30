@@ -1,0 +1,11 @@
+{
+  "type": "conditional",
+  "condition": {
+    "type": "in_island",
+    "island": "combat_3"
+  },
+  "definition": {
+    "type": "redirect",
+    "virtual_state": "dms:dark_birch_slab"
+  }
+}

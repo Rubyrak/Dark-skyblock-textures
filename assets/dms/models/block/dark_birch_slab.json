@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "dms:block/dark_birch_planks",
+        "side": "dms:block/dark_birch_planks",
+        "top": "dms:block/dark_birch_planks"
+    }
+}

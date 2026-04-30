@@ -1,0 +1,148 @@
+[
+    {
+        "type": "tab",
+        "title": "Islands",
+        "options": [
+            {
+                "type": "separator",
+                "title": { "text": "Change the textures of a full island" },
+                "description": ""
+            },
+            {
+                "type": "boolean",
+                "id": "dms_the_end",
+                "title": { "text": "The End" },
+                "description": "",
+                "default": true
+            },
+            {
+                "type": "boolean",
+                "id": "dms_rift",
+                "title": { "text": "Rift" },
+                "description": "",
+                "default": true
+            },
+            {
+                "type": "boolean",
+                "id": "dms_crimson_isle",
+                "title": { "text": "Crimson Isle" },
+                "description": "",
+                "default": false
+            },
+            {
+                "type": "boolean",
+                "id": "dms_winter_island",
+                "title": { "text": "Jerry's Workshop" },
+                "description": "",
+                "default": false
+            }
+        ]
+    },
+    {
+        "type": "tab",
+        "title": "Zones",
+        "options": [
+            {
+                "type": "separator",
+                "title": { "text": "Change the textures of a specific zone" },
+                "description": ""
+            },
+            {
+                "type": "boolean",
+                "id": "dms_ghosts",
+                "title": { "text": "Ghosts Mist" },
+                "description": "",
+                "default": true
+            },
+            {
+                "type": "boolean",
+                "id": "dms_glacite_tunnels",
+                "title": { "text": "Glacite Tunnels and Mineshafts" },
+                "description": "",
+                "default": true
+            },
+            {
+                "type": "boolean",
+                "id": "dms_dungeon_instance",
+                "title": { "text": "Dungeons" },
+                "description": "",
+                "default": false
+            },
+            {
+                "type": "boolean",
+                "id": "dms_kuudra_instance",
+                "title": { "text": "Kuudra" },
+                "description": "",
+                "default": false
+            }
+        ]
+    },
+    {
+        "type": "tab",
+        "title": "Extras",
+        "options": [
+            {
+                "type": "separator",
+                "title": { "text": "Customize fire and lava textures" },
+                "description": "This will change the texture everywhere"
+            },
+            {
+                "type": "boolean",
+                "id": "dms_entity_fire",
+                "title": { "text": "Remove Entity Fire" },
+                "description": "",
+                "default": false
+            },
+            {
+                "type": "dropdown",
+                "id": "dms_custom_fire",
+                "title": "Custom Fire Style",
+                "description": "",
+                "options": [
+                    {
+                        "value": "none",
+                        "text": "None",
+                        "default": true
+                    },
+                    {
+                        "value": "gray",
+                        "text": "Gray"
+                    },
+                    {
+                        "value": "soul",
+                        "text": "Soul"
+                    },
+                    {
+                        "value": "desaturated",
+                        "text": "Desaturated"
+                    }
+                ]
+            },
+            {
+                "type": "dropdown",
+                "id": "dms_custom_lava",
+                "title": "Custom Lava Texture",
+                "description": "",
+                "options": [
+                    {
+                        "value": "none",
+                        "text": "None",
+                        "default": true
+                    },
+                    {
+                        "value": "gray",
+                        "text": "Gray"
+                    },
+                    {
+                        "value": "dark",
+                        "text": "Dark"
+                    },
+                    {
+                        "value": "desaturated",
+                        "text": "Desaturated"
+                    }
+                ]
+            }
+        ]
+    }
+]

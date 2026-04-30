@@ -1,7 +1,35 @@
 {
   "pack": {
-    "description": "\u00A7c\u00A7lv1.2.1\u00A7r \u00A75Firmament needed \u00A7aRespackopts support ",
-    "min_format": 69,
-    "max_format": 150
+    "pack_format": 55,
+    "min_format": 55,
+    "max_format": 150,
+    "supported_formats": {
+      "min_inclusive": 55,
+      "max_inclusive": 150
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "v2.0-.1 ", "color": "red", "bold": true },
+        { "text": "Catharsis needed\n", "color": "dark_purple" }
+      ]
+    }
+  },
+  "catharsis:pack/v1": {
+    "id": "skyblock_dark_mode",
+    "version": "2.0",
+    "dependencies": { "catharsis": ">=1.0.0-beta.14" }
+  },
+  "fabric:overlays": {
+    "entries": [
+      {
+        "directory": "the_end",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_dark_mode",
+          "id": "dms_the_end"
+        }
+      }
+    ]
   }
 }
