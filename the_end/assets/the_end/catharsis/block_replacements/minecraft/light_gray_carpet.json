@@ -6,6 +6,6 @@
     },
     "definition": {
         "type": "redirect",
-        "virtual_state": "dms:gray_carpet"
+        "virtual_state": "minecraft:gray_carpet"
     }
 }

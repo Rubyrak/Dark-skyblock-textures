@@ -7,8 +7,15 @@ from pathlib import Path
 DIR_ORIGIN = Path("assetss")
 DIR_DESTINY = Path(".")
 # Folders
-FIRM_ISLAND = "aa_dms_end"
-CATHA_ISLAND = "the_end"
+FIRM_ISLAND = "zz_dms_dungeons"
+CATHA_ISLAND = "dungeons"
+
+def get_target_file():
+    if FIRM_ISLAND.startswith("zz_"):
+        real_name = FIRM_ISLAND.replace("zz_", "", 1)
+        return DIR_ORIGIN / "dms" / "overrides" / "blocks" / f"{real_name}.json"
+    else:
+        return DIR_ORIGIN / "firmskyblock" / "overrides" / "blocks" / f"{FIRM_ISLAND}.json"
 
 def generate_island_keywords(island_file):
     keywords = set()
@@ -18,7 +25,7 @@ def generate_island_keywords(island_file):
     for _, destination_block in data.get("replacements", {}).items():
         id_dest = destination_block.split(":")[-1] # ex: dark_sandstone_stairs
         keywords.add(id_dest)
-        
+
         # Add base for uncommon textures (ex: base texture from stairs)
         base = id_dest.replace("_stairs", "").replace("_slab", "").replace("_wall", "").replace("_frame", "")
         keywords.add(base)
@@ -40,7 +47,6 @@ def step_1_and_2_copy_only_necessary(keywords):
                 
             for origin_file in origin_route.rglob("*.*"):
                 if origin_file.is_file():
-                    
                     if any(pc in origin_file.name for pc in keywords):
                         relative_route = origin_file.relative_to(origin_route)
                         destiny_file = DIR_DESTINY / "assets" / "dms" / bl_type / relative_route
@@ -57,15 +63,16 @@ def step_1_and_2_copy_only_necessary(keywords):
         for file_json in new_models_route.rglob("*.json"):
             with open(file_json, 'r', encoding='utf-8') as f:
                 content = f.read()
-            
+
             # Changed references for copied files
             content = content.replace('"firmskyblock:block/', '"dms:block/')
-            
             with open(file_json, 'w', encoding='utf-8') as f:
                 f.write(content)
-    print("Updated references of filtered models.")
 
-def process_virtual_block_state(ns_dest, id_dest, vbs_route):
+def process_virtual_block_state(ns_dest, id_dest):
+    vbs_route = DIR_DESTINY / "assets" / ns_dest / "catharsis" / "virtual_block_states"
+    vbs_route.mkdir(parents=True, exist_ok=True)
+
     file_vbs = vbs_route / f"{id_dest}.json"
     if file_vbs.exists():
         return
@@ -85,17 +92,48 @@ def process_virtual_block_state(ns_dest, id_dest, vbs_route):
         content = content.replace('"firmskyblock:block/', '"dms:block/')
         with open(file_vbs, 'w', encoding='utf-8') as f:
             f.write(content)
-        print(f"  [+] Complex VBS: dms:{id_dest}") # Complex block state (ex: stairs)
+        print(f"  [+] Complex VBS Applied from Firmament: {ns_dest}:{id_dest}") # Complex block state (ex: stairs)
+    
     else:
-        model_namespace = "minecraft" if ns_dest == "minecraft" else "dms"
-        content_vbs = {
-            "variants": {
-                "": { "model": f"{model_namespace}:block/{id_dest}" }
+        is_stairs = id_dest.endswith("_stairs")
+        is_slab = id_dest.endswith("_slab")
+        is_wall = id_dest.endswith("_wall")
+        
+        if is_stairs or is_slab or is_wall:
+            template_name = ""
+            if is_stairs: template_name = "template_stairs.json"
+            elif is_slab: template_name = "template_slab.json"
+            elif is_wall: template_name = "template_wall.json"
+            
+            template_path = DIR_ORIGIN / "minecraft" / "blockstates" / template_name
+            
+            if template_path.exists():
+                with open(template_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                
+                model_namespace = "minecraft" if ns_dest == "minecraft" else "dms"
+                base_block = id_dest.replace("_slab", "").replace("_stairs", "").replace("_wall", "")
+                
+                content = content.replace("__NAMESPACE__", model_namespace)
+                content = content.replace("__BLOCK__", id_dest)
+                content = content.replace("__BLOCK_BASE__", base_block)
+                
+                with open(file_vbs, 'w', encoding='utf-8') as f:
+                    f.write(content)
+                print(f"  [+] Template VBS Generated for: {ns_dest}:{id_dest}") # Template complex block state
+            else:
+                print(f"  [!] Missing template '{template_name}' for {id_dest}") # Needed¿?
+                
+        else:
+            model_namespace = "minecraft" if ns_dest == "minecraft" else "dms"
+            content_vbs = {
+                "variants": {
+                    "": { "model": f"{model_namespace}:block/{id_dest}" }
+                }
             }
-        }
-        with open(file_vbs, 'w', encoding='utf-8') as f:
-            json.dump(content_vbs, f, indent=4)
-        print(f"  [+] Simple VBS: dms:{id_dest}") # Simple block state
+            with open(file_vbs, 'w', encoding='utf-8') as f:
+                json.dump(content_vbs, f, indent=4)
+            print(f"  [+] Simple VBS Generated: {ns_dest}:{id_dest}") # Simple block state
 
 def step_3_migrate_logic(island_data):
     print(f"\n--- Step 3: Migrating '{FIRM_ISLAND}' ---")
@@ -108,14 +146,11 @@ def step_3_migrate_logic(island_data):
     id_catharsis_island = modes[0] 
     replacements = island_data.get("replacements", {})
     
-    vbs_route = DIR_DESTINY / "assets" / "dms" / "catharsis" / "virtual_block_states"
-    vbs_route.mkdir(parents=True, exist_ok=True)
-    
     for original_block, destination_block in replacements.items():
         ns_orig, id_orig = original_block.split(":")
         ns_dest, id_dest = destination_block.split(":")
         
-        process_virtual_block_state(ns_dest, id_dest, vbs_route)
+        process_virtual_block_state(ns_dest, id_dest)
 
         # Create replacement for target island
         replace_route = DIR_DESTINY / CATHA_ISLAND / "assets" / CATHA_ISLAND / "catharsis" / "block_replacements" / ns_orig
@@ -130,7 +165,7 @@ def step_3_migrate_logic(island_data):
             },
             "definition": {
                 "type": "redirect",
-                "virtual_state": f"dms:{id_dest}"
+                "virtual_state": f"{ns_dest}:{id_dest}" 
             }
         }
         
@@ -140,11 +175,12 @@ def step_3_migrate_logic(island_data):
 if __name__ == "__main__":
     print(f"Target island: {FIRM_ISLAND}")
     
-    target_file = DIR_ORIGIN / "firmskyblock" / "overrides" / "blocks" / f"{FIRM_ISLAND}.json"
-    
+    target_file = get_target_file()
+
     if not target_file.exists():
-        print(f"¡ERROR! Couldn't find: {target_file}")
+        print(f"¡ERROR! Couldn't find {target_file}")
     else:
+        print(f"File found at: {target_file}")
         keywords, island_data = generate_island_keywords(target_file)
         
         step_1_and_2_copy_only_necessary(keywords)

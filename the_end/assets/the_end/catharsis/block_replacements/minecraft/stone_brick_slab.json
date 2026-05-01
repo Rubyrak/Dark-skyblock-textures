@@ -6,6 +6,6 @@
     },
     "definition": {
         "type": "redirect",
-        "virtual_state": "dms:polished_blackstone_slab"
+        "virtual_state": "minecraft:polished_blackstone_slab"
     }
 }

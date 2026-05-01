@@ -6,6 +6,6 @@
     },
     "definition": {
         "type": "redirect",
-        "virtual_state": "dms:polished_deepslate"
+        "virtual_state": "minecraft:polished_deepslate"
     }
 }

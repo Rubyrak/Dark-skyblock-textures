@@ -6,6 +6,6 @@
     },
     "definition": {
         "type": "redirect",
-        "virtual_state": "dms:deepslate_bricks"
+        "virtual_state": "minecraft:deepslate_bricks"
     }
 }

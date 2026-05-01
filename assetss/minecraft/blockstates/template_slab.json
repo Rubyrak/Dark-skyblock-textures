@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "__NAMESPACE__:block/__BLOCK__" },
+    "type=double": { "model": "__NAMESPACE__:block/__BLOCK_BASE__" },
+    "type=top": { "model": "__NAMESPACE__:block/__BLOCK___top" }
+  }
+}

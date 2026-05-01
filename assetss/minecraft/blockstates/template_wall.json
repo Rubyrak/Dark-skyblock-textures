@@ -1,0 +1,13 @@
+{
+  "multipart": [
+    { "apply": { "model": "__NAMESPACE__:block/__BLOCK___post" }, "when": { "up": "true" } },
+    { "apply": { "model": "__NAMESPACE__:block/__BLOCK___side", "uvlock": true }, "when": { "north": "low" } },
+    { "apply": { "model": "__NAMESPACE__:block/__BLOCK___side", "y": 90, "uvlock": true }, "when": { "east": "low" } },
+    { "apply": { "model": "__NAMESPACE__:block/__BLOCK___side", "y": 180, "uvlock": true }, "when": { "south": "low" } },
+    { "apply": { "model": "__NAMESPACE__:block/__BLOCK___side", "y": 270, "uvlock": true }, "when": { "west": "low" } },
+    { "apply": { "model": "__NAMESPACE__:block/__BLOCK___side_tall", "uvlock": true }, "when": { "north": "tall" } },
+    { "apply": { "model": "__NAMESPACE__:block/__BLOCK___side_tall", "y": 90, "uvlock": true }, "when": { "east": "tall" } },
+    { "apply": { "model": "__NAMESPACE__:block/__BLOCK___side_tall", "y": 180, "uvlock": true }, "when": { "south": "tall" } },
+    { "apply": { "model": "__NAMESPACE__:block/__BLOCK___side_tall", "y": 270, "uvlock": true }, "when": { "west": "tall" } }
+  ]
+}
