@@ -10,6 +10,20 @@ DIR_DESTINY = Path(".")
 FIRM_ISLAND = "zz_dms_dungeons"
 CATHA_ISLAND = "dungeons"
 
+# I don't like this...
+SLAB_EXCEPTIONS = {
+    "polished_blackstone_brick_slab": "polished_blackstone_bricks",
+    "stone_brick_slab": "stone_bricks",
+    "end_stone_brick_slab": "end_stone_bricks",
+    "nether_brick_slabs": "nether_bricks", # se que vas a faltar perro
+    "birch_slab": "birch_planks",
+    "oak_slab": "oak_planks",
+    "spruce_slab": "spruce_planks",
+    "dark_oak_slab": "dark_oak_planks",
+    "jungle_slab": "jungle_planks",
+    "acacia_slab": "acacia_planks"
+}
+
 def get_target_file():
     if FIRM_ISLAND.startswith("zz_"):
         real_name = FIRM_ISLAND.replace("zz_", "", 1)
@@ -98,12 +112,14 @@ def process_virtual_block_state(ns_dest, id_dest):
         is_stairs = id_dest.endswith("_stairs")
         is_slab = id_dest.endswith("_slab")
         is_wall = id_dest.endswith("_wall")
+        is_wood = id_dest.endswith("_wood")
         
-        if is_stairs or is_slab or is_wall:
+        if is_stairs or is_slab or is_wall or is_wood:
             template_name = ""
             if is_stairs: template_name = "template_stairs.json"
             elif is_slab: template_name = "template_slab.json"
             elif is_wall: template_name = "template_wall.json"
+            elif is_wood: template_name = "template_wood.json"
             
             template_path = DIR_ORIGIN / "minecraft" / "blockstates" / template_name
             
@@ -112,7 +128,11 @@ def process_virtual_block_state(ns_dest, id_dest):
                     content = f.read()
                 
                 model_namespace = "minecraft" if ns_dest == "minecraft" else "dms"
-                base_block = id_dest.replace("_slab", "").replace("_stairs", "").replace("_wall", "")
+
+                if id_dest in SLAB_EXCEPTIONS:
+                    base_block = SLAB_EXCEPTIONS[id_dest]
+                else:
+                    base_block = id_dest.replace("_slab", "").replace("_stairs", "").replace("_wall", "").replace("_wood", "")
                 
                 content = content.replace("__NAMESPACE__", model_namespace)
                 content = content.replace("__BLOCK__", id_dest)

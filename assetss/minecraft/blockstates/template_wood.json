@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=x": { "model": "__NAMESPACE__:block/__BLOCK__", "x": 90, "y": 90 },
+    "axis=y": { "model": "__NAMESPACE__:block/__BLOCK__" },
+    "axis=z": { "model": "__NAMESPACE__:block/__BLOCK__", "x": 90 }
+  }
+}
