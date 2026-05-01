@@ -7,8 +7,8 @@ from pathlib import Path
 DIR_ORIGIN = Path("assetss")
 DIR_DESTINY = Path(".")
 # Folders
-FIRM_ISLAND = "zz_dms_dungeons"
-CATHA_ISLAND = "dungeons"
+FIRM_ISLAND = "dms_ghosts"
+CATHA_ISLAND_ZONE = "ghosts"
 
 # I don't like this...
 SLAB_EXCEPTIONS = {
@@ -173,7 +173,7 @@ def step_3_migrate_logic(island_data):
         process_virtual_block_state(ns_dest, id_dest)
 
         # Create replacement for target island
-        replace_route = DIR_DESTINY / CATHA_ISLAND / "assets" / CATHA_ISLAND / "catharsis" / "block_replacements" / ns_orig
+        replace_route = DIR_DESTINY / CATHA_ISLAND_ZONE / "assets" / CATHA_ISLAND_ZONE / "catharsis" / "block_replacements" / ns_orig
         replace_route.mkdir(parents=True, exist_ok=True)
         
         replace_file = replace_route / f"{id_orig}.json"
