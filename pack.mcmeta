@@ -37,6 +37,14 @@
           "pack": "skyblock_dark_mode",
           "id": "dms_dungeon_instance"
         }
+      },
+      {
+        "directory": "ghosts",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_dark_mode",
+          "id": "dms_chosts"
+        }
       }
     ]
   }

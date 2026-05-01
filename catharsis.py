@@ -7,8 +7,10 @@ from pathlib import Path
 DIR_ORIGIN = Path("assetss")
 DIR_DESTINY = Path(".")
 # Folders
-FIRM_ISLAND = "dms_ghosts"
-CATHA_ISLAND_ZONE = "ghosts"
+FIRM_ISLAND = "dms_ghosts" # Original zone
+CATHA_ISLAND_ZONE = "ghosts" # Target zone
+
+CATHA_AREA = f"dms:{CATHA_ISLAND_ZONE}"
 
 # I don't like this...
 SLAB_EXCEPTIONS = {
@@ -178,14 +180,12 @@ def step_3_migrate_logic(island_data):
         
         replace_file = replace_route / f"{id_orig}.json"
         content_repl = {
-            "type": "conditional",
-            "condition": {
-                "type": "in_island",
-                "island": id_catharsis_island
-            },
-            "definition": {
-                "type": "redirect",
-                "virtual_state": f"{ns_dest}:{id_dest}" 
+            "type": "per_area",
+            "entries": {
+                CATHA_AREA: {
+                    "type": "redirect",
+                    "virtual_state": f"{ns_dest}:{id_dest}"
+                }
             }
         }
         
