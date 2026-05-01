@@ -43,8 +43,12 @@ def generate_island_keywords(island_file):
         keywords.add(id_dest)
 
         # Add base for uncommon textures (ex: base texture from stairs)
-        base = id_dest.replace("_stairs", "").replace("_slab", "").replace("_wall", "").replace("_frame", "")
+        base = id_dest.replace("_stairs", "").replace("_slab", "").replace("_wall", "").replace("_frame", "").replace("_layer", "").replace("_block", "")
         keywords.add(base)
+
+        if "snow" in id_dest:
+            snow_base = id_dest.split("_snow")[0] + "_snow"
+            keywords.add(snow_base)
         
     return keywords, data
 
@@ -165,12 +169,13 @@ def step_3_migrate_logic(island_data):
         print("No 'modes' found.")
         return
         
-    id_catharsis_island = modes[0] 
     replacements = island_data.get("replacements", {})
     
     for original_block, destination_block in replacements.items():
         ns_orig, id_orig = original_block.split(":")
         ns_dest, id_dest = destination_block.split(":")
+
+        if ns_dest == "firmskyblock": ns_dest = "dms" # Lo estaba guardando todo en assets/firmament por el dinamismo......
         
         process_virtual_block_state(ns_dest, id_dest)
 

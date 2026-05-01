@@ -31,6 +31,46 @@
         }
       },
       {
+        "directory": "rift",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_dark_mode",
+          "id": "dms_rift"
+        }
+      },
+      {
+        "directory": "crimson_isle",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_dark_mode",
+          "id": "dms_crimson_isle"
+        }
+      },
+      {
+        "directory": "winter_island",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_dark_mode",
+          "id": "dms_winter_island"
+        }
+      },
+      {
+        "directory": "ghosts",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_dark_mode",
+          "id": "dms_ghosts"
+        }
+      },
+      {
+        "directory": "mineshaft",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_dark_mode",
+          "id": "dms_glacite_mineshaft"
+        }
+      },
+      {
         "directory": "dungeons",
         "condition": {
           "condition": "catharsis:config",
@@ -39,11 +79,11 @@
         }
       },
       {
-        "directory": "ghosts",
+        "directory": "kuudra",
         "condition": {
           "condition": "catharsis:config",
           "pack": "skyblock_dark_mode",
-          "id": "dms_chosts"
+          "id": "dms_kuudra_instance"
         }
       }
     ]

@@ -1,11 +1,9 @@
 {
-    "type": "conditional",
-    "condition": {
-        "type": "in_island",
-        "island": "combat_3"
-    },
-    "definition": {
-        "type": "redirect",
-        "virtual_state": "minecraft:gray_carpet"
+    "type": "per_area",
+    "entries": {
+        "dms:the_end": {
+            "type": "redirect",
+            "virtual_state": "minecraft:gray_carpet"
+        }
     }
 }

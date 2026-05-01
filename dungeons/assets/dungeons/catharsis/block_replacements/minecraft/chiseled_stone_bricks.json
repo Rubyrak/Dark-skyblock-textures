@@ -1,11 +1,9 @@
 {
-    "type": "conditional",
-    "condition": {
-        "type": "in_island",
-        "island": "dungeon"
-    },
-    "definition": {
-        "type": "redirect",
-        "virtual_state": "minecraft:chiseled_polished_blackstone"
+    "type": "per_area",
+    "entries": {
+        "dms:dungeons": {
+            "type": "redirect",
+            "virtual_state": "minecraft:chiseled_polished_blackstone"
+        }
     }
 }

@@ -1,11 +1,9 @@
 {
-    "type": "conditional",
-    "condition": {
-        "type": "in_island",
-        "island": "dungeon"
-    },
-    "definition": {
-        "type": "redirect",
-        "virtual_state": "minecraft:blackstone_wall"
+    "type": "per_area",
+    "entries": {
+        "dms:dungeons": {
+            "type": "redirect",
+            "virtual_state": "minecraft:blackstone_wall"
+        }
     }
 }

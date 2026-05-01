@@ -1,0 +1,9 @@
+{
+    "type": "per_area",
+    "entries": {
+        "dms:mineshaft": {
+            "type": "redirect",
+            "virtual_state": "dms:dark_snow_block"
+        }
+    }
+}

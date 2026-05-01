@@ -1,0 +1,9 @@
+{
+    "type": "per_area",
+    "entries": {
+        "dms:crimson_isle": {
+            "type": "redirect",
+            "virtual_state": "minecraft:gray_concrete"
+        }
+    }
+}

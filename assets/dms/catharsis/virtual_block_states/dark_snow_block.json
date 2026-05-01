@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "dms:block/dark_end_stone"
+            "model": "dms:block/dark_snow_block"
         }
     }
 }

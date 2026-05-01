@@ -1,0 +1,9 @@
+{
+    "type": "per_area",
+    "entries": {
+        "dms:kuudra": {
+            "type": "redirect",
+            "virtual_state": "minecraft:deepslate_tiles"
+        }
+    }
+}

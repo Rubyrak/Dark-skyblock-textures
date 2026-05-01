@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "dms:block/dark_sandstone"
+            "model": "minecraft:block/bedrock"
         }
     }
 }

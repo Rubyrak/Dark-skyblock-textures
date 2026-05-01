@@ -1,11 +1,9 @@
 {
-    "type": "conditional",
-    "condition": {
-        "type": "in_island",
-        "island": "dungeon"
-    },
-    "definition": {
-        "type": "redirect",
-        "virtual_state": "firmskyblock:dark_sandstone"
+    "type": "per_area",
+    "entries": {
+        "dms:dungeons": {
+            "type": "redirect",
+            "virtual_state": "dms:dark_sandstone"
+        }
     }
 }

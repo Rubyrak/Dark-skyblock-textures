@@ -56,7 +56,7 @@
             },
             {
                 "type": "boolean",
-                "id": "dms_glacite_tunnels",
+                "id": "dms_glacite_mineshaft",
                 "title": { "text": "Glacite Tunnels and Mineshafts" },
                 "description": "",
                 "default": true

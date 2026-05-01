@@ -1,0 +1,9 @@
+{
+    "type": "per_area",
+    "entries": {
+        "dms:ghosts": {
+            "type": "redirect",
+            "virtual_state": "dms:gray_stained_glass"
+        }
+    }
+}
