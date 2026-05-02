@@ -7,8 +7,8 @@ from pathlib import Path
 DIR_ORIGIN = Path("assetss")
 DIR_DESTINY = Path(".")
 # Folders
-FIRM_ISLAND = "dms_ghosts" # Original zone
-CATHA_ISLAND_ZONE = "ghosts" # Target zone
+FIRM_ISLAND = "zz_dms_dungeons" # Original zone
+CATHA_ISLAND_ZONE = "dungeons" # Target zone
 
 CATHA_AREA = f"dms:{CATHA_ISLAND_ZONE}"
 

@@ -84,7 +84,12 @@
             {
                 "type": "separator",
                 "title": { "text": "Customize fire and lava textures" },
-                "description": "This will change the texture everywhere"
+                "description": {
+                    "text": "This will change the texture everywhere\n",
+                    "extra": [
+                        { "text": "NOT IMPLEMENTED YET", "color": "red", "bold": true }
+                    ]
+                }
             },
             {
                 "type": "boolean",
