@@ -5,6 +5,7 @@
   ],
   "replacements": {
     "minecraft:snow": "firmskyblock:dark_snow_layer",
-    "minecraft:snow_block": "firmskyblock:dark_snow_block"
+    "minecraft:snow_block": "firmskyblock:dark_snow_block",
+    "minecraft:clay": "minecraft:cyan_terracotta"
   }
 }

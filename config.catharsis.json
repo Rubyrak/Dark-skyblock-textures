@@ -51,14 +51,14 @@
                 "type": "boolean",
                 "id": "dms_ghosts",
                 "title": { "text": "Ghosts Mist" },
-                "description": "",
+                "description": "Only the texture of the glass floor changes.",
                 "default": true
             },
             {
                 "type": "boolean",
                 "id": "dms_glacite_mineshaft",
                 "title": { "text": "Glacite Tunnels and Mineshafts" },
-                "description": "",
+                "description": "Changes the snow color for Glacite Tunnels and Mineshafts. Also in Ghosts Mist.",
                 "default": true
             },
             {
