@@ -1,9 +1,0 @@
-{
-    "type": "per_area",
-    "entries": {
-        "dms:mineshaft": {
-            "type": "redirect",
-            "virtual_state": "minecraft:cyan_terracotta"
-        }
-    }
-}
