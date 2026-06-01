@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fire_up",
+  "textures": {
+    "fire": "dms:block/fire/vanilla/fire_0"
+  }
+}

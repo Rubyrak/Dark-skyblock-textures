@@ -85,6 +85,33 @@
           "pack": "skyblock_dark_mode",
           "id": "dms_kuudra_instance"
         }
+      },
+      {
+        "directory": "entity_fire",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_dark_mode",
+          "id": "dms_entity_fire"
+        }
+      },
+      {
+        "directory": "fire_vanilla",
+        "condition": {
+          "condition": "fabric:and",
+          "values": [
+            {
+              "condition": "catharsis:config",
+              "pack": "skyblock_dark_mode",
+              "id": "dms_custom_fire",
+              "value": "none"
+            },
+            {
+              "condition": "catharsis:config",
+              "pack": "skyblock_dark_mode",
+              "id": "dms_entity_fire"
+            }
+          ]
+        }
       }
     ]
   }
