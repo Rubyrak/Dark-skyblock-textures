@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fire_floor",
+  "textures": {
+    "fire": "dms:block/fire/gray/fire_0"
+  }
+}

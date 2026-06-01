@@ -112,6 +112,33 @@
             }
           ]
         }
+      },
+      {
+        "directory": "fire_soul",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_dark_mode",
+          "id": "dms_custom_fire",
+          "value": "soul"
+        }
+      },
+      {
+        "directory": "fire_gray",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_dark_mode",
+          "id": "dms_custom_fire",
+          "value": "gray"
+        }
+      },
+      {
+        "directory": "fire_desaturated",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_dark_mode",
+          "id": "dms_custom_fire",
+          "value": "desaturated"
+        }
       }
     ]
   }
