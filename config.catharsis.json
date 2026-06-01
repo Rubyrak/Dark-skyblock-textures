@@ -5,34 +5,44 @@
         "options": [
             {
                 "type": "separator",
-                "title": { "text": "Change the textures of a full island" },
+                "title": {
+                    "text": "Change the textures of a full island"
+                },
                 "description": ""
             },
             {
                 "type": "boolean",
                 "id": "dms_the_end",
-                "title": { "text": "The End" },
+                "title": {
+                    "text": "The End"
+                },
                 "description": "",
                 "default": true
             },
             {
                 "type": "boolean",
                 "id": "dms_rift",
-                "title": { "text": "Rift" },
+                "title": {
+                    "text": "Rift"
+                },
                 "description": "",
                 "default": true
             },
             {
                 "type": "boolean",
                 "id": "dms_crimson_isle",
-                "title": { "text": "Crimson Isle" },
+                "title": {
+                    "text": "Crimson Isle"
+                },
                 "description": "",
                 "default": false
             },
             {
                 "type": "boolean",
                 "id": "dms_winter_island",
-                "title": { "text": "Jerry's Workshop" },
+                "title": {
+                    "text": "Jerry's Workshop"
+                },
                 "description": "",
                 "default": false
             }
@@ -44,34 +54,44 @@
         "options": [
             {
                 "type": "separator",
-                "title": { "text": "Change the textures of a specific zone" },
+                "title": {
+                    "text": "Change the textures of a specific zone"
+                },
                 "description": ""
             },
             {
                 "type": "boolean",
                 "id": "dms_ghosts",
-                "title": { "text": "Ghosts Mist" },
+                "title": {
+                    "text": "Ghosts Mist"
+                },
                 "description": "Only the texture of the glass floor changes.",
                 "default": true
             },
             {
                 "type": "boolean",
                 "id": "dms_glacite_mineshaft",
-                "title": { "text": "Glacite Tunnels and Mineshafts" },
+                "title": {
+                    "text": "Glacite Tunnels and Mineshafts"
+                },
                 "description": "Changes the snow color for Glacite Tunnels and Mineshafts. Also in Ghosts Mist.",
                 "default": true
             },
             {
                 "type": "boolean",
                 "id": "dms_dungeon_instance",
-                "title": { "text": "Dungeons" },
+                "title": {
+                    "text": "Dungeons"
+                },
                 "description": "",
                 "default": false
             },
             {
                 "type": "boolean",
                 "id": "dms_kuudra_instance",
-                "title": { "text": "Kuudra" },
+                "title": {
+                    "text": "Kuudra"
+                },
                 "description": "",
                 "default": false
             }
@@ -83,18 +103,26 @@
         "options": [
             {
                 "type": "separator",
-                "title": { "text": "Customize fire and lava textures" },
+                "title": {
+                    "text": "Customize fire and lava textures"
+                },
                 "description": {
                     "text": "This will change the texture everywhere\n",
                     "extra": [
-                        { "text": "NOT IMPLEMENTED YET", "color": "red", "bold": true }
+                        {
+                            "text": "NOT IMPLEMENTED YET",
+                            "color": "red",
+                            "bold": true
+                        }
                     ]
                 }
             },
             {
                 "type": "boolean",
                 "id": "dms_entity_fire",
-                "title": { "text": "Remove Entity Fire" },
+                "title": {
+                    "text": "Remove Entity Fire"
+                },
                 "description": "",
                 "default": false
             },

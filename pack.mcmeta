@@ -139,6 +139,33 @@
           "id": "dms_custom_fire",
           "value": "desaturated"
         }
+      },
+      {
+        "directory": "lava_gray",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_dark_mode",
+          "id": "dms_custom_lava",
+          "value": "gray"
+        }
+      },
+      {
+        "directory": "lava_dark",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_dark_mode",
+          "id": "dms_custom_lava",
+          "value": "dark"
+        }
+      },
+      {
+        "directory": "lava_desaturated",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_dark_mode",
+          "id": "dms_custom_lava",
+          "value": "desaturated"
+        }
       }
     ]
   }
