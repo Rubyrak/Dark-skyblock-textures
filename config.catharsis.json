@@ -65,7 +65,10 @@
                 "title": {
                     "text": "Ghosts Mist"
                 },
-                "description": "Only the texture of the glass floor changes.",
+                "description": {
+                    "text": "Changes the texture of the floor glass.",
+                    "color": "gray"
+                },
                 "default": true
             },
             {
@@ -74,7 +77,10 @@
                 "title": {
                     "text": "Glacite Tunnels and Mineshafts"
                 },
-                "description": "Changes the snow color for Glacite Tunnels and Mineshafts. Also in Ghosts Mist.",
+                "description": {
+                    "text": "Changes the snow color for Glacite Tunnels and Mineshafts. Also in Ghosts Mist.",
+                    "color": "gray"
+                },
                 "default": true
             },
             {
@@ -107,14 +113,7 @@
                     "text": "Customize fire and lava textures"
                 },
                 "description": {
-                    "text": "This will change the texture everywhere\n",
-                    "extra": [
-                        {
-                            "text": "NOT IMPLEMENTED YET",
-                            "color": "red",
-                            "bold": true
-                        }
-                    ]
+                    "text": "This will change the texture everywhere."
                 }
             },
             {
@@ -123,14 +122,20 @@
                 "title": {
                     "text": "Remove Entity Fire"
                 },
-                "description": "",
+                "description": {
+                    "text": "Removes the fire from entities and self.\nNote that you won't see fire aspect.",
+                    "color": "gray"
+                },
                 "default": false
             },
             {
                 "type": "dropdown",
                 "id": "dms_custom_fire",
                 "title": "Custom Fire Style",
-                "description": "",
+                "description": {
+                    "text": "Won't change entity fire color.",
+                    "color": "gray"
+                },
                 "options": [
                     {
                         "value": "none",
