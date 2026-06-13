@@ -17,7 +17,7 @@ SLAB_EXCEPTIONS = {
     "polished_blackstone_brick_slab": "polished_blackstone_bricks",
     "stone_brick_slab": "stone_bricks",
     "end_stone_brick_slab": "end_stone_bricks",
-    "nether_brick_slabs": "nether_bricks", # se que vas a faltar perro
+    "nether_brick_slabs": "nether_bricks",
     "birch_slab": "birch_planks",
     "oak_slab": "oak_planks",
     "spruce_slab": "spruce_planks",

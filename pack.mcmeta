@@ -10,7 +10,7 @@
     "description": {
       "text": "",
       "extra": [
-        { "text": "v2.0-.1 ", "color": "red", "bold": true },
+        { "text": "v2.0 ", "color": "red", "bold": true },
         { "text": "Catharsis needed\n", "color": "dark_purple" }
       ]
     }
