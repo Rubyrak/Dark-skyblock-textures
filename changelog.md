@@ -1,13 +1,13 @@
-# v1.2.1 - (2026-04-29)
+# v2.0 - (2026-06-13)
 ## IMPORTANT
-This will be the last version compatible with Firmament. Subsequent versions will use Catharsis.
+This is the first complete [Catharsis](https://modrinth.com/mod/catharsis) release. If you encounter any issue, please report it.
 
 ## Fixes
 - Add missing blocks in dungeons
 - Add missing blocks in kuudra
 
 ## Improvements
-- The size of the textures has been significantly reduced. 
+- The size of the textures files has been significantly reduced.
 
 
 
