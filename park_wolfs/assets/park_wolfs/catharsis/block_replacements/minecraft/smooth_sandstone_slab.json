@@ -1,0 +1,9 @@
+{
+    "type": "per_area",
+    "entries": {
+        "dms:park_acacia": {
+            "type": "redirect",
+            "virtual_state": "dms:dark_sandstone_slab"
+        }
+    }
+}

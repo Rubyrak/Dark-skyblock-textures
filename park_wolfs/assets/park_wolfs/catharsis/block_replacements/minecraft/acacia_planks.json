@@ -1,0 +1,9 @@
+{
+    "type": "per_area",
+    "entries": {
+        "dms:park_acacia": {
+            "type": "redirect",
+            "virtual_state": "minecraft:polished_tuff"
+        }
+    }
+}

@@ -85,6 +85,15 @@
             },
             {
                 "type": "boolean",
+                "id": "dms_park_wolfs",
+                "title": {
+                    "text": "Wolf zone in acacia island of park"
+                },
+                "description": "",
+                "default": false
+            },
+            {
+                "type": "boolean",
                 "id": "dms_dungeon_instance",
                 "title": {
                     "text": "Dungeons"

@@ -1,0 +1,8 @@
+{
+  "type": "simple",
+  "islands": "foraging_1",
+  "box": {
+      "min": "-394:80:-23",
+      "max": "-466:127:92"
+    }
+}
