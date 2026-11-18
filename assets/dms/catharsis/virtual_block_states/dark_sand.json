@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
-      "model": "dms:block/dark_sand"
-    }
+    "": [
+      { "model": "dms:block/dark_sand" },
+      { "model": "dms:block/dark_sand", "y": 90 },
+      { "model": "dms:block/dark_sand", "y": 180 },
+      { "model": "dms:block/dark_sand", "y": 270 }
+    ]
   }
 }
